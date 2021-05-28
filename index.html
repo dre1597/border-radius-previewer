@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,9 +8,10 @@
     <title>Border-radius Previewer</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <div id="div">
-        <h1>Border-radius Previwer</h1>
+        <h1>Border-radius Previewer</h1>
         <form>
             <fieldset>
                 <label for="top-left">Top Left</label>
@@ -27,13 +29,18 @@
                 <label for="bottom-right">Bottom Right</label>
                 <input type="text" id="bottom-right" name="bottom-right">
             </fieldset>
+            <fieldset class="color">
+                <label for="color">Color</label>
+                <input type="color" value="#00008b" id="color">
+            </fieldset>
             <span id="message"></span>
             <button id="generate">Generate!</button>
         </form>
-        <textarea class="hidden" name="css" id="css" cols="30" rows="2"></textarea>
+        <textarea class="hidden textarea" name="css" id="css" cols="30" rows="2"></textarea>
         <button id="clipboard" class="hidden">Copy to clipboard</button>
     </div>
-    
+
     <script src="./main.js"></script>
 </body>
+
 </html>

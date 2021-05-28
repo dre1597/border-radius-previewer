@@ -1,4 +1,4 @@
-body  {
+body {
     background-color: #aaa;
 }
 
@@ -7,9 +7,9 @@ body  {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    width: 50vw;
+    width: 70vw;
     margin: 0 auto;
-    margin-top: 20vh;
+    margin-top: 10vh;
     border: 5px darkblue solid;
 }
 
@@ -23,7 +23,7 @@ form {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    font-size: 2rem;
+    font-size: 1.5rem;
     color: darkblue;
 }
 
@@ -67,4 +67,18 @@ button {
 
 .hidden {
     display: none;
+}
+
+.textarea {
+    max-width: 80%;
+}
+
+[type='color'] {
+    padding: 0;
+    border: transparent;
+}
+
+#color {
+    width: 200px;
+    height: 50px;
 }
