@@ -10,36 +10,37 @@
 </head>
 
 <body>
-    <div id="div">
-        <h1>Border-radius Previewer</h1>
-        <form>
-            <fieldset>
-                <label for="top-left">Top Left</label>
-                <input type="text" id="top-left" name="top-left">
-            </fieldset>
-            <fieldset>
-                <label for="top-right">Top Right</label>
-                <input type="text" id="top-right" name="top-right">
-            </fieldset>
-            <fieldset>
-                <label for="bottom-left">Bottom Left</label>
-                <input type="text" id="bottom-left" name="bottom-left">
-            </fieldset>
-            <fieldset>
-                <label for="bottom-right">Bottom Right</label>
-                <input type="text" id="bottom-right" name="bottom-right">
-            </fieldset>
-            <fieldset class="color">
-                <label for="color">Color</label>
-                <input type="color" value="#00008b" id="color">
-            </fieldset>
-            <span id="message"></span>
-            <button id="generate">Generate!</button>
-        </form>
-        <textarea class="hidden textarea" name="css" id="css" cols="30" rows="2"></textarea>
-        <button id="clipboard" class="hidden">Copy to clipboard</button>
-    </div>
-
+    <main>
+        <div id="div">
+            <h1>Border-radius Previewer</h1>
+            <form>
+                <fieldset>
+                    <label for="top-left">Top Left</label>
+                    <input type="text" id="top-left" name="top-left">
+                </fieldset>
+                <fieldset>
+                    <label for="top-right">Top Right</label>
+                    <input type="text" id="top-right" name="top-right">
+                </fieldset>
+                <fieldset>
+                    <label for="bottom-left">Bottom Left</label>
+                    <input type="text" id="bottom-left" name="bottom-left">
+                </fieldset>
+                <fieldset>
+                    <label for="bottom-right">Bottom Right</label>
+                    <input type="text" id="bottom-right" name="bottom-right">
+                </fieldset>
+                <fieldset class="color">
+                    <label for="color">Color</label>
+                    <input type="color" value="#00008b" id="color">
+                </fieldset>
+                <span id="message"></span>
+                <button id="generate">Generate!</button>
+            </form>
+            <textarea class="hidden textarea" name="css" id="css" cols="30" rows="2"></textarea>
+            <button id="clipboard" class="hidden">Copy to clipboard</button>
+        </div>
+    </main>
     <script src="./main.js"></script>
 </body>
 

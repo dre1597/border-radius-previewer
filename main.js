@@ -34,7 +34,7 @@ generateBtn.addEventListener('click', (event) => {
     const color = document.querySelector('#color').value;
     div.style.borderColor = color;
 
-    cssText.textContent = `border: ${topLeft.value} ${topRight.value} ${bottomRight.value} ${bottomLeft.value};
+    cssText.textContent = `border-radius: ${topLeft.value} ${topRight.value} ${bottomRight.value} ${bottomLeft.value};
     border-color: ${color};`;
     cssText.classList.remove('hidden');
     clipboardBtn.classList.remove('hidden');
