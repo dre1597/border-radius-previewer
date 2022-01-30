@@ -1,84 +1,84 @@
 body {
-    background-color: #aaa;
+  background-color: #aaa;
 }
 
 #div {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    width: 70vw;
-    margin: 0 auto;
-    margin-top: 10vh;
-    border: 5px darkblue solid;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 70vw;
+  margin: 0 auto;
+  margin-top: 10vh;
+  border: 5px darkblue solid;
 }
 
 h1 {
-    font-size: 3rem;
-    color: darkblue;
+  font-size: 3rem;
+  color: darkblue;
 }
 
 form {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    font-size: 1.5rem;
-    color: darkblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-size: 1.5rem;
+  color: darkblue;
 }
 
 fieldset {
-    border: none;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 fieldset input {
-    padding: .5rem;
-    margin-left: 1rem;
+  padding: 0.5rem;
+  margin-left: 1rem;
 }
 
 button {
-    display: block;
-    width: 50%;
-    margin: 1rem auto;
-    border: none;
-    font-size: 2rem;
-    background-color: darkblue;
-    color: #ddd;
-    padding: 1rem;
-    cursor: pointer;
+  display: block;
+  width: 50%;
+  margin: 1rem auto;
+  border: none;
+  font-size: 2rem;
+  background-color: darkblue;
+  color: #ddd;
+  padding: 1rem;
+  cursor: pointer;
 }
 
 #css {
-    text-align: center;
-    font-size: 2rem;
-    margin-bottom: 2rem;
-    color: darkblue;
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  color: darkblue;
 }
 
 #clipboard {
-    font-size: 1.25rem;
-    width: 200px;
-    background-color: darkred;
-    margin-bottom: 2rem;
+  font-size: 1.25rem;
+  width: 200px;
+  background-color: darkred;
+  margin-bottom: 2rem;
 }
 
 .hidden {
-    display: none;
+  display: none;
 }
 
 .textarea {
-    max-width: 80%;
+  max-width: 80%;
 }
 
 [type='color'] {
-    padding: 0;
-    border: transparent;
+  padding: 0;
+  border: transparent;
 }
 
 #color {
-    width: 200px;
-    height: 50px;
+  width: 200px;
+  height: 50px;
 }

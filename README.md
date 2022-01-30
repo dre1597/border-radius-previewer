@@ -8,15 +8,14 @@ I'm improving this project using Vue right [here](https://github.com/dre1597/bor
 
 ## Technologies
 
--   HTML
--   CSS
--   JavaScript
+- HTML
+- CSS
+- JavaScript
 
 ## Things to improve
 
--   Responsive layout
--   Still need more validations
-
+- Responsive layout
+- Still need more validations
 
 See more projects like this on [app-ideas](https://github.com/florinpop17/app-ideas)
 
